@@ -13,6 +13,9 @@ body{
     margin-bottom: 50px;
 
 }
+h2{
+    font-size: 30px;
+}
 .mysection h1{
     font-size: 60px;
 }
@@ -43,6 +46,7 @@ body{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    margin-bottom: 40px;
 }
 .dream-big h1{
     font-size: 40px;
@@ -54,11 +58,57 @@ body{
     font-size: 22px;
     padding-bottom: 30px;
 }
+.experiences{
+    height: 600px;
+}
 
-
-
-
-
+.flexible{
+    display: flex;
+    margin-top: 50px;
+}
+.experiences{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+.text{
+    text-align: center;
+    font-size: 40px;
+    color: cadetblue;
+    
+}
+.boxshadow{
+    box-shadow: 10px 10px 20px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 60px;
+    border-radius: 10px;
+}
+.boxshadow h4{
+    font-size: 20px;
+}
+.boxshadow p{
+    font-size: 18px;
+}
+.boxshadow h2{
+    font-size: 40px;
+}
+#fullstackbr{
+    border-left: 7px solid tomato;
+}
+#babywebbr{
+    border-left: 7px solid blue;
+}
+footer{
+    height: 80px;
+}
+footer p{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 50px;
+}
 
 
 
